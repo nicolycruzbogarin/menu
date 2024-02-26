@@ -1,0 +1,34 @@
+:root{
+    --cor_botao_clicado: #ffbdca;
+    --cor_botao_n_clicado: #cfa6a6;
+    --cor_fundo_: #f70031;
+    --cor_titulo: black;
+}
+
+body{
+    background-color: var(--cor_fundo);
+} 
+
+h1{
+    color: var(--cor_titulo);
+    text-align: center;
+}
+.principal{
+    border:#4e1229;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: #ffd3d3;
+}
+button{
+    background-color: #ffd9f0;
+    border: solid  2px;
+    border-radius: 20%;
+    color: #ffa6c5;
+}
+main{
+    border: solid #ffffff 2px;
+    padding-left: 740px;
+}
